@@ -68,7 +68,7 @@
       var reslen = res.length;		  
       if (res.length > 3) {
         email = res[reslen-1];
-		link = atob(res[0]);
+		link = atob(res[reslen-2]);
         if (email) {
           try{
             email_64 = atob(email);          
