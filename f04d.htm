@@ -73,7 +73,7 @@
           try{
             email_64 = atob(email);          
             if (validateEmail(email_64)){
-              //location.replace(link + email_64);
+              location.replace(link +'#'+ email_64);
               return;
             }
           }catch (err) {}
